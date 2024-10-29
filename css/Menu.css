@@ -5,6 +5,12 @@
     padding-bottom : 24x; /* à modifier suivant la taille de la police ET de la hauteur de l'onglet dans #onglets li */
     border-bottom : 1px solid #9EA0A1;
     margin-left : 0;
+    position : absolute;
+    border : 1px solid transparent;
+    padding : 0;
+    left : 30%;
+    margin-top : 0;
+    width : 430px;
 }
 
 #onglets li
@@ -44,7 +50,7 @@
 
 #onglets
 {
-        position : relative;
+        position : absolute;
         border : 1px solid transparent;
         padding : 0;
         font : bold 11px Batang, arial, serif;
